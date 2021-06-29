@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    background-image: linear-gradient(90deg, #1ab2e0 0%, #1488d6 49%, #15ad7f 80%, #1ab2e0 100%);
+    animation: slidebg 9s linear infinite;
+}
+  
+@keyframes slidebg {
+to{
+    background-position: 20vw;
+}
+
+}
+.navbar .nav-link{
+    text-align: center;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.navbar > .nav-item > .perfil{
+    width: 10%;
+    height: 10%;
+    float: right;
+
+}
